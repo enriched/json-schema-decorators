@@ -1,0 +1,24 @@
+{
+  "name": "json-schema-decorators",
+  "version": "1.0.0",
+  "description": "Decorators for generating json schemas",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "git@github.com:enriched/json-schema-decorators.git",
+  "author": "Rich Adams",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/typescript/bin/tsc -p .",
+    "test": "./node_modules/mocha/bin/mocha ./lib/test"
+  },
+  "dependencies": {
+    "ajv": "^4.10.0",
+    "reflect-metadata": "^0.1.8",
+    "ts-json-schema": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "typescript": "^2.1.4"
+  }
+}
